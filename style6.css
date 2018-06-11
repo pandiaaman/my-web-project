@@ -1,0 +1,274 @@
+body{
+	padding:0px;
+	margin:0px;
+	font:15px/1.5 Arial,Helvetica,sans-serif;
+	background-color:#f4f4f4;
+	background:url("z2.jpg");;
+	color:white;
+}
+#head{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+header{
+	background:	url("z3.jpg");
+	padding-top:2px;
+	padding-bottom:5px;
+	min-height:70px;
+	position:sticky;
+	position: -webkit-sticky;
+	top:0;
+	z-index:2;
+}
+header a{
+	color:white;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+	font-weight:bold;
+}
+header ul{
+	margin:0px;
+	padding:0px;
+}
+header ul li{
+	display:inline;
+	padding:5px 20px 5px 20px;
+	margin:3px;
+	float:left;
+	border:2px solid pink;
+	border-radius:6px;
+	transition-property: transform;
+	transition-duration:1s;
+}
+header ul li:hover{
+	transform:rotateY(360deg);
+}
+header #pic{
+	padding-top:20px;
+	float:left;
+	color:white;
+	font-size:25px;
+}
+header #pic h1{
+	margin:0px;
+}
+header #navmenu{
+	float:right;
+	margin-top:40px;	
+}
+#cont1{
+	background:url("a.jpg") no-repeat 0 -300px;
+	
+	opacity:1;
+	padding:80px;
+	margin-bottom:0px;
+	position: -webkit-sticky;
+	position:sticky;
+	top:78px;
+	overflow:hidden;
+
+}
+#cont1 p,h2{
+	position:relative;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	z-index:2;
+}
+#cont2{
+	background:url("b.jpg") no-repeat 0 -200px;
+	padding:80px;	
+	position: -webkit-sticky;
+	position:sticky;
+	top:78px;
+}
+#cont2 p,h2{
+	position:relative;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	z-index:2;
+}
+#cont3{
+	background:url("a.jpg") no-repeat 0 -200px;
+	padding:80px;
+	position: -webkit-sticky;
+	position:sticky;
+	top:78px;
+}
+#cont3 p,h2{
+	position:relative;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	z-index:2;
+}
+#cont4{
+	background:url("d.jpg") no-repeat 0 -200px;
+	padding:80px;
+	position: -webkit-sticky;
+	position:sticky;
+	top:78px;
+}
+#cont4 p,h2{
+	position:relative;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	z-index:2;
+}
+#cont5{
+	background:url("e.jpg") no-repeat 0 -200px;
+	padding:80px;
+	margin-bottom:10px;
+	position: -webkit-sticky;
+	position:sticky;
+	top:78px;
+}
+#cont5 p,h2{
+	position:relative;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	z-index:2;
+}
+#cont6{
+	background:url("a.jpg") no-repeat 0 -200px;
+	padding:80px;
+	position: -webkit-sticky;
+	position:sticky;
+	top:78px;
+}	
+#container{
+	width:80%;
+	margin:auto;
+	
+}
+#boxes{
+	
+	margin:auto;
+	padding:20px;
+}
+#def{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+#boxes .box{
+	float:left;
+	text-align:center;
+	width:25%;
+}
+#foot{
+	margin-top:300px;
+	text-align:center;
+	border-top:red 3px solid;
+	padding:50px;
+	background:url("z.jpg") no-repeat 0 -300px;
+}
+#containform{
+	width:400px;
+	height:620px;
+	text-align:center;
+	margin:0 auto;
+	padding:40px;
+	background-color:rgba(0,0,0,0.4);
+	margin-top:80px;
+	margin-bottom:200px;
+	border-radius:6px;
+}
+#containform1{
+	width:400px;
+	height:300px;
+	text-align:center;
+	margin:0 auto;
+	padding:40px;
+	background-color:rgba(0,0,0,0.4);
+	margin-top:80px;
+	margin-bottom:200px;
+	border-radius:6px;
+}
+#imgg{
+	margin-top:-10px;
+	margin-bottom:50px;
+}
+#imggg{
+	margin-top:-80px;
+	padding-bottom:30px;
+}
+#containform input, #containform1 input{
+	height:30px;
+	width:250px;
+	font-size:16px;
+	margin-bottom:25px;
+	padding-left:20px;
+}
+.btn{
+	width:200px;
+	height:30px;
+	margin-top:10px;
+	margin-bottom:60px;
+}
+#sgn a{
+	text-decoration:none;
+	color:white;
+	padding:5px;
+}
+.lout{
+	
+	background:transparent;
+	padding:10px;
+	margin:0px;
+	border:0px;
+}
+.lout hover{
+	background:black;
+	color:white;
+}
+#social{
+	position:sticky;
+	top:140px;
+	float:left;
+}
+#social ul{
+		list-style-type:none;
+}
+#social ul li{
+	margin:10px;
+	transition-property: transform;
+	transition-duration:1s;
+}
+#social ul li:hover{
+		transform:rotateY(360deg);
+}
+#showcase1{
+	animation-name: comein1;
+    animation-duration: 4s;
+}
+@keyframes comein1{
+	from{left:-100px;}
+	to{left:100px;}
+}
+#showcase2{
+	animation-name: comein2;
+    animation-duration: 4s;
+}
+@keyframes comein2{
+	0%{left:-100px}
+	50%{left:100px}
+	100%{right:20px;}
+}
+#showcase3{
+	animation-name: comein3;
+    animation-duration: 4s;
+}
+@keyframes comein3{
+	0%{left:-100px}
+	50%{left:300px}
+	100%{right:20px;}
+}
+#intro{
+	text-align:center;
+
+}
